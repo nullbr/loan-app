@@ -51,6 +51,9 @@ gem 'bootsnap', require: false
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
+  # testing
+  gem 'faker', '~> 3.2'
+  gem 'rspec-rails', '~> 6.0.0'
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri mingw x64_mingw]
 end
@@ -73,6 +76,4 @@ group :test do
   gem 'webdrivers'
 end
 
-gem "faker", "~> 3.2"
-
-gem "bcrypt", "~> 3.1"
+gem 'bcrypt', '~> 3.1'

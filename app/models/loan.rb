@@ -11,4 +11,6 @@ class Loan < ApplicationRecord
   belongs_to :loan_type
 
   has_many :documents
+
+  validates :name, presence: true
 end
