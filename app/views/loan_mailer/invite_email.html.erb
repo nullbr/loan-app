@@ -1,0 +1,13 @@
+<%# set email with loan name and type, and a link to access invitation %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <p>Loan invitation email</p>
+    <p>Loan name: <%= @loan.name %></p>
+    <p>Loan type: <%= @loan.loan_type %></p>
+    <p>Click <%= link_to 'here', @invitation_link %> to access the invitation</p>
+  </body>
+</html>

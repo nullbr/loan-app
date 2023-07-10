@@ -2,7 +2,7 @@
 
 require 'test_helper'
 
-class CommentTest < ActiveSupport::TestCase
+class LoanMailerTest < ActionMailer::TestCase
   # test "the truth" do
   #   assert true
   # end
