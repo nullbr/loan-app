@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @lender %>
+
+<div>
+  <%= link_to "Edit this lender", edit_lender_path(@lender) %> |
+  <%= link_to "Back to lenders", lenders_path %>
+
+  <%= button_to "Destroy this lender", @lender, method: :delete %>
+</div>
